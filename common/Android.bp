@@ -8,6 +8,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	check_elf_files: false,
 	name: "libpowerstatshaldataprovider",
 	owner: "pixel/gms",
 	strip: {
